@@ -10,7 +10,7 @@ public class GitHubCollaboration
         Addition(5, 5);
         Subtraction(5, 5);
         Multiplication(5, 5);
-        Division(10, 5); 
+        Division(15, 5); 
     }
     
     public static double Addition(double firstNumber, double secondNumber)
