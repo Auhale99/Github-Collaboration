@@ -10,6 +10,7 @@ public class GitHubCollaboration
         Addition(5, 5);
         Subtraction(5, 5);
         Multiplication(5, 5);
+        Division(15, 5); 
     }
     
     public static double Addition(double firstNumber, double secondNumber)
@@ -35,7 +36,12 @@ public class GitHubCollaboration
         
         return product;
     }
-    
+    public static double Division(double firstNumber, double secondNumber)
+    {
+        double quotient = firstNumber / secondNumber; // Calculation
+        System.out.println(firstNumber + " / " + secondNumber + " = " + quotient); // Output
+        return quotient;
+    }
     
     
 }
